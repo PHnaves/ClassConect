@@ -50,18 +50,35 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #000000;
+  background-color: #cccccc;
   padding-top: 30px;
 }
 
-.icon {
-  color: #ffffff;
-  font-size: 30px;
+.header img {
+  width: 30px;
+  height: 30px;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid #ffffff;
+}
+
+.footer img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer .icone-clipboard {
+  background-color: #188038;
+  border-radius: 10px;
+}
+
+.footer .icone-list {
+  background-color: #838383;
+  border-radius: 10px;
 }

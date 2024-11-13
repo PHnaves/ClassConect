@@ -1,13 +1,9 @@
   .user-card {
     margin-top: 80px;
+    background-color: #cccccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
   }
   
   .profile-pic {
@@ -28,10 +24,12 @@
     color: #9c9c9c;
   }
   
-  .section-title {
+  .section-title a {
     font-weight: bold;
-    color: #727272;
-    text-align: center;
+    color: #9c9c9c;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
   }
   
   .options-list {
@@ -40,21 +38,23 @@
     position: absolute;
     bottom: 80px;
     width: 100%;
+    border-radius: 30px;
   }
   
   .option-item {
     display: flex;
     align-items: center;
     height: auto;
-    border-radius: 50px;
     padding: 10px;
-    background-color: #0000; /* Cor de fundo dos itens */
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .icon-square {
+  .imagens {
     width: 30px;
     height: 30px;
-    background-color: #ff0000; /* Cor do ícone quadrado */
     border-radius: 5px;
   }
   
