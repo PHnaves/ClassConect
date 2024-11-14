@@ -1,0 +1,65 @@
+.activity-container {
+    color: black;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 320px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 12px;
+  }
+  
+  .activity-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    flex: 1;
+  }
+  
+  .points {
+    font-size: 0.9em;
+    color: green;
+    margin-left: auto;
+  }
+  
+  .activity-description {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 16px;
+    font-size: 1em;
+  }
+  
+  .attachments-status {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 16px;
+  }
+  
+  .attachment {
+    color: red;
+  }
+  
+  .status {
+    color: green;
+  }
+  
+  ion-button {
+    max-width: 320px;
+    margin-top: 16px;
+  }
+  

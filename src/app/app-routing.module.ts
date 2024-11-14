@@ -25,6 +25,10 @@ const routes: Routes = [
   },  {
     path: 'pagina-aluno-atividades-mais',
     loadChildren: () => import('./pagina-aluno-atividades-mais/pagina-aluno-atividades-mais.module').then( m => m.PaginaAlunoAtividadesMaisPageModule)
+  },
+  {
+    path: 'pagina-aluno-mais-dados',
+    loadChildren: () => import('./pagina-aluno-mais-dados/pagina-aluno-mais-dados.module').then( m => m.PaginaAlunoMaisDadosPageModule)
   }
 
 ];
