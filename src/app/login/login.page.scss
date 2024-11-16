@@ -1,0 +1,55 @@
+/* Fundo do conteúdo */
+ion-content {
+  --background: #f5f5f5; /* Fundo claro */
+}
+
+/* Estilo geral do background */
+.login-background {
+  // background-image: url('path/to/your/background-image.png'); /* Adicione sua imagem */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do contêiner de login */
+.login-container {
+  width: 90%;
+  max-width: 320px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos inputs */
+.input-container {
+  margin-bottom: 15px;
+
+  ion-input {
+    background-color: transparent;
+    color: #000000;      /* Texto branco */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px;
+  }
+
+  .label {
+    color: #000000; /* Cor do texto do label */
+  }
+}
+
+/* Botão de login */
+ion-button {
+  --background: #28a745; /* Verde */
+  --border-radius: 5px;
+}
+
+/* Texto de ajuda */
+.help-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}

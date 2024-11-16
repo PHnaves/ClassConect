@@ -4,7 +4,8 @@
 
 .subject-row {
   display: flex;
-  background-color: #4A90E2; /* Fundo destacado para o cabeçalho */
+  align-items: center;
+  background-color: #188038; /* Fundo destacado para o cabeçalho */
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 10px;
@@ -18,29 +19,27 @@
   margin-right: 10px;
 }
 
-ion-list{
-  background-color: transparent;
-}
-
 ion-segment {
   margin-top: 15px;
+  background-color: transparent;
   display: flex;
   justify-content: center;
 }
 
 ion-segment-button {
-  --background: transparent; /* Remove fundo dos botões */
+  --background: trasparent; /* Remove fundo dos botões */
   --color: #000000;
   font-weight: bold;
   margin: 0 5px;
 }
 
 ion-segment-button.ion-activated {
-  --color: #000000; /* Cor do botão ativo */
+  --color: #188038; /* Cor do botão ativo */
   border-radius: 8px;
 }
 
-ion-card {
+ion-item {
+  --background-color: #d9d9d9;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -51,7 +50,7 @@ ion-card {
   text-decoration: none;
 }
 
-ion-card:hover {
+ion-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -64,25 +63,25 @@ ion-avatar img {
 
 .professor-name {
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
   padding-bottom: 3px;
 }
 
 .activity-title {
   font-weight: bold;
   font-size: 18px;
-  color: #666;
+  color: #000000;
 }
 
 .activity-deadline {
   font-size: 14px;
-  color: #666;
+  color: #000000;
   margin-top: 5px;
 }
 
 .comments {
   font-size: 14px;
-  color: #888;
+  color: #000000;
   margin-top: 5px;
   border-top: 1px solid white;
 }

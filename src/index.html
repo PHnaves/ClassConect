@@ -22,25 +22,26 @@
 
 <body>
   <app-root></app-root>
-    <!-- Header -->
-    <div class="header">
+    <ion-header>
       <a href="">
-        <img src="assets/imagens/Logo class conect sem escrita.png" alt="" style="width: 50px;">
+        <img class="logo" src="assets/imagens/Logo class conect sem escrita.png" alt="" style="width: 50px;">
       </a>
-      <a href="pagina-aluno-mais">
-        <img src="assets/Icones/bell.svg" alt="">
-      </a>
-    </div>
+      <img id="trigger-button" src="assets/Icones/bell.svg" alt="">
+      <ion-popover trigger="trigger-button">
+        <ng-template>
+          <ion-content class="ion-padding">Hello Styled World!</ion-content>
+        </ng-template>
+      </ion-popover>
+    </ion-header>
   
-    <!-- Footer -->
-    <div class="footer">
+    <ion-footer>
       <a href="pagina-aluno-atividades">
         <img class="icone-clipboard" src="assets/Icones/clipboard.svg" alt=""></i>
       </a>
       <a href="pagina-aluno-mais">
         <img class="icone-list" src="assets/Icones/list.svg" alt="">
       </a>
-    </div>
+    </ion-footer>
 </body>
 
 </html>

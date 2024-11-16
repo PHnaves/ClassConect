@@ -34,7 +34,7 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+// @import "@ionic/angular/css/palettes/dark.system.css";
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
@@ -45,16 +45,35 @@ body {
     padding: 0;
 }
 
-.header, .footer {
+ion-popover {
+  --backdrop-opacity: 0.6;
+  --width: 300px;
+}
+
+ion-popover ion-content {
+  --background: #ffffff;
+  --color: #000000;
+}
+
+ion-popover::part(backdrop) {
+  background-color: #d9d9d9;
+}
+
+ion-header, ion-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   background-color: #d9d9d9;
-  padding-top: 30px;
+  height: 70px;
 }
 
-.footer {
+ion-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ion-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -63,17 +82,22 @@ body {
   width: 100%;
 }
 
-.footer img {
+img {
   width: 45px;
   height: 45px;
 }
 
-.footer .icone-clipboard {
+.logo{
+  width: 45px;
+  height: 40px;
+}
+
+.icone-clipboard {
   background-color: #188038;
   border-radius: 10px;
 }
 
-.footer .icone-list {
+.icone-list {
   background-color: #838383;
   border-radius: 10px;
 }
